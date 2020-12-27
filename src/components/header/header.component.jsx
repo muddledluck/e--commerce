@@ -7,7 +7,6 @@ import { connect } from "react-redux";
 import "./header.styles.scss";
 
 const Header = ({ currentUser }) => {
-  console.log("CurrentUser_HEADER: ", currentUser);
   return (
     <div className="header">
       <Link className="logo-container" to="/">
